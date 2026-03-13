@@ -2,11 +2,15 @@
 /* hi eveyrone */
 html {
     font-family: Arial, Helvetica, sans-serif !important;
+    :root{
+        --primary-bg-color: #000000
+        --primary-color:#111111
+    }
 }
 
 body {
     margin: 0;
-    padding: 20;
+
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -15,58 +19,92 @@ body {
 
 a[href="about.html"] {
     font-weight: bold;
+     font-size: 2em;
+
+}
+
+a[href="index.html"] {
+    font-weight: bold;
+     font-size: 2em;
+
 }
 
 div.text-wrapper {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 div p {
     font-size: 18px;
+
 }
 
 ol li {
+    list-style: none;
     font-weight: bold;
-    font-size:14px;
+    font-size:16px;
 }
 
+
+.aboutpage a:hover{
+    color: rgb(99, 200, 255);
+    Transform: scale (1.25);
+}
+   
+.returnhome a:hover{
+    color: rgb(99, 200, 255);
+    Transform: scale (1.25);
+}
 
 
 section {
-    padding: 60px 10px;
+    padding: 70px 20px;
 }
 
 section:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
 }
 
 .container {
     width: 100%;
     max-width: 960px;
+    min-width: 450px;
     text-align: left;
     margin: 0 auto;
 }
 
+
+
+
 h1 {
-    font-size: 4em;
+    font-size: 5em;
+    margin:0px;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-section .gallery {
-    width: 100%;
+.image img {
+border-radius: 70px;
+width:100%;
 }
 
-section .gallery img {
-    width: 32%;
+.headshotimage img {
+border-radius: 50px;
+width:100%;
+justify-content: left;
 }
+
+.left,.right{
+    width:50%
+
+}
+
 
 footer {
     background-color: #000;
@@ -95,12 +133,11 @@ footer {
 .header2{
     color: rgb(0, 0, 0);
     text-align: left;
-    position: relative;
+    position:relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    justify-content: space-around;
-    gap: 1px;
+ gap: 10px;
 }
 
 .classlist {
@@ -108,15 +145,31 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     justify-content: space-around;
+    list-style: none;
+    a:hover{
+    color: rgb(99, 200, 255);
+    Transform: scale (1.25);}
 }
 
 .side-by-side{
+    gap:40px;
     display:flex;
     flex-direction: row;
+    padding:0px,30px;
     justify-content:flex-start;
-    align-items:flexstart;
+}
+.socialsandcontact {
+    display: flex; flex-direction: row; gap: 0px;
+    gap:40px;
+    justify-content: space-around;
+    text-align: left;
+    justify-content:flex-start;
 
 }
 
-    
+    .burger{
+display:none;
+}
+
+
   
