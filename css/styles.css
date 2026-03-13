@@ -106,6 +106,7 @@ justify-content: left;
 }
 
 
+
 footer {
     background-color: #000;
     color: #fff;
@@ -168,7 +169,14 @@ footer {
 }
 
     .burger{
-display:none;
+
+width: 50px;
+  height: 50px;
+}
+
+.burger img {
+    width: 100%;
+    display:none;
 }
 
 

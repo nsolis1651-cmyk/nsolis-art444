@@ -1,3 +1,5 @@
+
+
 /* TABLET VIEW */
 @media only screen and (max-width:992px) {
         section {
@@ -50,7 +52,8 @@ div p {
 }
     .classlist {
     display: none;}
-        .burger{
+        
+    .burger{
 
 width: 50px;
   height: 50px;
@@ -58,6 +61,7 @@ width: 50px;
 
 .burger img {
     width: 100%;
+    display:block;
 }
 }
 
@@ -115,7 +119,8 @@ div p {
 }
    .classlist {
     display: none;}
-        .burger{
+
+      .burger{
 
 width: 50px;
   height: 50px;
@@ -123,7 +128,9 @@ width: 50px;
 
 .burger img {
     width: 100%;
+    display: block;
 }
 }
+
     
     
