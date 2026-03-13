@@ -70,14 +70,14 @@ width: 50px;
 @media only screen and (max-width: 760px) {
 
     section {
-    padding: 60px 20px;
+    padding: 60px 30px;
 }
     .container {
     width: 100%;
     max-width: 960px;
-    min-width: 450px;
+    min-width: 420px;
     text-align: left;
-    margin: 20px auto;
+    margin: 30px auto;
 }
     .image img {
 border-radius: 50px;
@@ -92,6 +92,7 @@ width:80%;
     .side-by-side {
         gap: 40px;
         display: flex;
+        padding:0px,30px;
         flex-direction: column;
         justify-content: flex-start;
         text-align: left;
@@ -116,6 +117,7 @@ width:80%;
     }
 div p {
     font-size: 16px;
+    padding: 0px,20px;
 }
    .classlist {
     display: none;}
@@ -129,6 +131,7 @@ width: 50px;
 .burger img {
     width: 100%;
     display: block;
+
 }
 }
 
