@@ -1,21 +1,20 @@
-
-
 /* TABLET VIEW */
 @media only screen and (max-width:992px) {
-        section {
-    padding: 60px 20px;
-}
+    section {
+        padding: 60px 20px;
+    }
+
     .container {
-    width: 100%;
-    max-width: 960px;
-    min-width: 450px;
-    text-align: left;
-    margin: 20px auto;
-}
+        width: 100%;
+        max-width: 960px;
+        text-align: left;
+        margin: 20px auto;
+    }
+
     .image img {
-border-radius: 50px;
-width:80%;
-}
+        border-radius: 50px;
+        width: 80%;
+    }
 
     .left,
     .right {
@@ -31,7 +30,7 @@ width:80%;
     }
 
     h1 {
-        font-size: 4.5em;
+        font-size: 4em;
     }
 
     h2 {
@@ -47,42 +46,47 @@ width:80%;
         font-weight: bold;
         font-size: 15px;
     }
-div p {
-    font-size: 17px;
-}
+
+    div p {
+        font-size: 17px;
+    }
+
     .classlist {
-    display: none;}
-        
-    .burger{
+        display: none;
+    }
 
-width: 50px;
-  height: 50px;
+    .burger {
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .burger img {
+        width: 100%;
+        display: block;
+    }
 }
 
-.burger img {
-    width: 100%;
-    display:block;
-}
-}
-
+/* BURGER MENUE */
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 760px) {
 
     section {
-    padding: 60px 30px;
-}
+        padding: 60px 20px;
+    }
+
     .container {
-    width: 100%;
-    max-width: 960px;
-    min-width: 420px;
-    text-align: left;
-    margin: 30px auto;
-}
+        width: 100%;
+        max-width: 960px;
+        text-align: left;
+        margin: 30px auto;
+    }
+
     .image img {
-border-radius: 50px;
-width:80%;
-}
+        border-radius: 50px;
+        width: 80%;
+    }
 
     .left,
     .right {
@@ -92,14 +96,15 @@ width:80%;
     .side-by-side {
         gap: 40px;
         display: flex;
-        padding:0px,30px;
+        padding: 0px, 30px;
         flex-direction: column;
         justify-content: flex-start;
         text-align: left;
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 3em;
+
     }
 
     h2 {
@@ -115,25 +120,26 @@ width:80%;
         font-weight: bold;
         font-size: 14px;
     }
-div p {
-    font-size: 16px;
-    padding: 0px,20px;
+
+    div p {
+        font-size: 16px;
+        padding: 0px, 10px;
+    }
+
+    .classlist {
+        display: none;
+    }
+
+    .burger {
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .burger img {
+        width: 100%;
+        display: block;
+
+
+    }
 }
-   .classlist {
-    display: none;}
-
-      .burger{
-
-width: 50px;
-  height: 50px;
-}
-
-.burger img {
-    width: 100%;
-    display: block;
-
-}
-}
-
-    
-    

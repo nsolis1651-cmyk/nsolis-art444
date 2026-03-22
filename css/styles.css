@@ -68,7 +68,7 @@ section:nth-child(even) {
 .container {
     width: 100%;
     max-width: 960px;
-    min-width: 450px;
+    min-width: 320px;
     text-align: left;
     margin: 0 auto;
 }
@@ -77,7 +77,7 @@ section:nth-child(even) {
 
 
 h1 {
-    font-size: 5em;
+  font-size: 5em;
     margin:0px;
 }
 
@@ -150,6 +150,9 @@ footer {
     a:hover{
     color: rgb(99, 200, 255);
     Transform: scale (1.25);}
+}
+.classlistmenu{
+    display:none;
 }
 
 .side-by-side{
