@@ -1,9 +1,15 @@
 // ALL YOU JS GOES HERE
 
 const burger = document.querySelector('div.burger');
-burger.addEventListener('click', classlistmenu).classList;
+const classlistmenu = document.querySelector('.classlist').classList;
 
-function classlistmenu(){
-    console.log('Classlist Shows');
-    burger.toggle('classlistmenu');
+function revealclasslistmenu() {
+    classlistmenu.toggle("classlist")
+    console.log('classlistmenu toggled');
 }
+burger.addEventListener('click', revealclasslistmenu);
+
+
+
+
+

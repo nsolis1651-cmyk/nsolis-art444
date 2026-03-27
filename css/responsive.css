@@ -1,14 +1,15 @@
 /* TABLET VIEW */
 @media only screen and (max-width:992px) {
     section {
-        padding: 60px 20px;
+        padding: 0px 20px;
     }
 
     .container {
         width: 100%;
         max-width: 960px;
         text-align: left;
-        margin: 20px auto;
+        margin: 0px auto;
+        padding:20px 0px;
     }
 
     .image img {
@@ -41,10 +42,17 @@
         font-size: 1.75em;
     }
 
-    ol li {
+    ul li{
         list-style: none;
-        font-weight: bold;
-        font-size: 15px;
+        font-size: 14px;
+        justify-content: space-around;
+        a:hover{
+    color: rgb(99, 200, 255);
+    }
+    
+    nav{
+        background-color: blue;
+
     }
 
     div p {
@@ -54,6 +62,8 @@
     .classlist {
         display: none;
     }
+
+
 
     .burger {
 
@@ -66,21 +76,22 @@
         display: block;
     }
 }
-
+}
 /* BURGER MENUE */
 
 /* MOBILE VIEW */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px){
 
     section {
-        padding: 60px 20px;
+        padding: 0px 20px;
     }
 
     .container {
         width: 100%;
         max-width: 960px;
         text-align: left;
-        margin: 30px auto;
+        margin: 0px auto;
+        padding:20px 0px;
     }
 
     .image img {
@@ -115,12 +126,24 @@
         font-size: 1.5em;
     }
 
-    ol li {
-        list-style: none;
-        font-weight: bold;
-        font-size: 14px;
-    }
+ 
 
+    ul li{
+        list-style: none;
+        font-size: 14px;
+        list-style:none;
+        margin-top:0px;
+    }
+.navbar{
+    position:absolute;
+    background-color: white;
+    margin-top:-20px;   
+    margin-left:10px;         
+    background-color: rgba(255, 255, 255, .8);
+    width:100%;
+
+
+}
     div p {
         font-size: 16px;
         padding: 0px, 10px;
@@ -128,18 +151,26 @@
 
     .classlist {
         display: none;
+        margin-top:0px;
     }
 
-    .burger {
-
-        width: 50px;
-        height: 50px;
-    }
 
     .burger img {
         width: 100%;
         display: block;
-
-
     }
+
+    .socialsandcontact {
+    display: flex; flex-direction: column;
+    gap:10px;
+    justify-content: space-around;
+    text-align: left;
+    justify-content:flex-start;
+    
 }
+.availabiltiy {
+    padding: 20px 0px;
+}
+
+}
+
