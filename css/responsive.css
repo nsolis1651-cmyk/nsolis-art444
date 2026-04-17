@@ -46,12 +46,18 @@
         list-style: none;
         font-size: 14px;
         justify-content: space-around;
+    }
         a:hover{
     color: rgb(99, 200, 255);
     }
     
     nav{
-        background-color: blue;
+        position:absolute;
+    background-color: white;
+    margin-top:-20px;   
+    margin-left:10px;         
+    background-color: rgba(255, 255, 255, .8);
+    width:100%;
 
     }
 
@@ -69,15 +75,16 @@
 
         width: 50px;
         height: 50px;
+        display:block
+        style= "display:none;"
     }
 
-    .burger img {
+    .burger svg {
         width: 100%;
         display: block;
     }
 }
-}
-/* BURGER MENUE */
+
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 760px){
@@ -171,6 +178,4 @@
 .availabiltiy {
     padding: 20px 0px;
 }
-
 }
-
