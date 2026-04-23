@@ -226,5 +226,36 @@ footer {
 
 }
 
+body {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
 
+.wrapper {
+  width: 60%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#faqs .container { color: rgb(255, 255, 255); border-radius: 20px; box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25); margin: 20px 0;
+ }
+#faqs .question { font-size: 1.2rem; font-weight: 600; padding: 20px 80px 20px 20px; position: relative; display: flex; align-items: center; }
+#faqs .question::after { content: "\002B"; font-size: 2.2rem; position: absolute; right: 20px; transition: 0.2s; }
+#faqs .question.active::after { transform: rotate(45deg); }
+#faqs .answercont { max-height: 0; overflow: hidden; transition: 0.3s; }
+#faqs .answer { padding: 0 20px 20px; line-height: 1.5rem; 
+}
+
+
+.pagewrapper {
+  display: flex;                /* Enables flexbox */
+  justify-content: center;       /* Centers horizontally */
+  width: 100%;
+}
 }
