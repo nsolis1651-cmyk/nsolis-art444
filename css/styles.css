@@ -233,13 +233,15 @@ width: 50px;
 }
 
 #theme-toggle {
-  background-color:rgb(4, 63, 131);
+  /* Your styles here */
+  background-color: rgb(4, 63, 131);;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  width: 15%;
- 
+  cursor: pointer;
+    width: 145px;
+  height: 40px;
 }
 
   /* -?-----------dark mode */
