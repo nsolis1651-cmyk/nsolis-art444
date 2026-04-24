@@ -63,15 +63,32 @@ ul li {
      margin-top: 0px;
 }
 
-.aboutpage a:hover{
-    color: rgb(99, 200, 255);
-    Transform: scale (1.25);
+.navbar .classlist li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: inline-block; /* Required for transform to work */
+  transition: transform 0.3s ease; /* Makes the growth smooth */
 }
-   
-.returnhome a:hover{
-    color: rgb(99, 200, 255);
-    Transform: scale (1.25);
+
+.navbar .classlist li a:hover {
+  transform: scale(1.2); /* Increases size by 20% */
+  color: #555; /* Optional: slight color change */
 }
+
+.aboutpage a, 
+.returnhome a {
+  color:  rgb(4, 63, 131);            /* Keeps text black */
+  display: inline-block;   /* Allows the 'inflate' effect to work */
+  text-decoration: none;   /* Optional: removes underline */
+  transition: transform 0.3s ease; /* Makes the inflation smooth */
+}
+
+/* 2. Set the hover style (Inflate only) */
+.aboutpage a:hover,
+.returnhome a:hover {
+  transform: scale(1.15);  /* Adjust this number to inflate more or less */
+}
+
 
 
 section {
@@ -168,6 +185,24 @@ footer {
     color: rgb(99, 200, 255);
   
 }
+
+.classlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.classlist a {
+  color: black; /* Sets default color to black */
+  text-decoration: none; /* Optional: removes underline */
+  transition: color 0.3s ease; /* Optional: adds smooth transition */
+}
+
+.classlist a:hover {
+  color: rgb(99, 200, 255); /* Color on hover */
+}
+
 }
 .classlistmenu{
     display:none;
@@ -255,8 +290,6 @@ body.dark-mode {
   background-color: #1a1a1a;
   color: white;
 
-  navigation a { color: #ffffff; }
-
   h1 {
     color: white;
   }
@@ -291,5 +324,37 @@ body {
     z-index: 100;
 }
 
+.navbar .classlist li a {
+    color: white;
+    text-decoration: none; /* Optional: removes the underline */
+    a:hover{
+    color: rgb(99, 200, 255);}
 
+    .aboutpage a, 
+.returnhome a {
+  color: rgb(255, 255, 255);            
+  display: inline-block;  
+  text-decoration: none;  
+  transition: transform 0.3s ease; 
+}
+
+
+.aboutpage a:hover,
+.returnhome a:hover {
+  transform: scale(1.15); 
+}
+}
+.aboutpage a, 
+.returnhome a {
+  color: rgb(4, 63, 131);            /* Keeps text black */
+  display: inline-block;   /* Allows the 'inflate' effect to work */
+  text-decoration: none;   /* Optional: removes underline */
+  transition: transform 0.3s ease; /* Makes the inflation smooth */
+}
+
+/* 2. Set the hover style (Inflate only) */
+.aboutpage a:hover,
+.returnhome a:hover {
+  transform: scale(1.15);  /* Adjust this number to inflate more or less */
+}
 }
