@@ -232,12 +232,21 @@ width: 50px;
     z-index: 100;
 }
 
-
+#theme-toggle {
+  background-color:rgb(4, 63, 131);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 15%;
+ 
+}
 
   /* -?-----------dark mode */
 #darkmodebutton{
   width: 50px;
   height: 50px
+
 }
 
 body.dark-mode {
